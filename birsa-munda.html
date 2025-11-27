@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birsa Munda Airport Area - Ranchi Crime Hotspot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .area-header {
+      background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+      color: white;
+      padding: 3rem 0;
+      text-align: center;
+    }
+    
+    .area-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .area-header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    
+    .back-link {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 2px solid white;
+      border-radius: 25px;
+      margin-top: 1rem;
+      transition: all 0.3s ease;
+    }
+    
+    .back-link:hover {
+      background: white;
+      color: #dc3545;
+    }
+    
+    .area-content {
+      padding: 3rem 0;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    
+    .stat-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #dc3545;
+      margin-bottom: 0.5rem;
+    }
+    
+    .stat-label {
+      color: #6c757d;
+      font-weight: 500;
+    }
+    
+    .content-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 3rem;
+    }
+    
+    .main-content {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .sidebar {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .crime-timeline {
+      margin-top: 2rem;
+    }
+    
+    .timeline-item {
+      padding: 1rem;
+      border-left: 4px solid #dc3545;
+      margin-bottom: 1rem;
+      background: #f8f9fa;
+      border-radius: 0 8px 8px 0;
+    }
+    
+    .timeline-date {
+      font-weight: 600;
+      color: #dc3545;
+    }
+    
+    .timeline-type {
+      background: #dc3545;
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 15px;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin: 0.5rem 0;
+    }
+    
+    .safety-checklist {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .safety-checklist li {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #e9ecef;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .safety-checklist li:last-child {
+      border-bottom: none;
+    }
+    
+    .check-icon {
+      color: #28a745;
+      font-weight: bold;
+    }
+    
+    .warning-box {
+      background: #f8d7da;
+      border: 1px solid #f5c6cb;
+      color: #721c24;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+    
+    @media (max-width: 768px) {
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="area-header">
+    <div class="container">
+      <h1>✈️ Birsa Munda Airport Area</h1>
+      <p>Airport Vicinity with Organized Crime Activities</p>
+      <a href="index.html" class="back-link">← Back to Main Map</a>
+    </div>
+  </header>
+
+  <main class="area-content">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">32</div>
+          <div class="stat-label">Recent Reports</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">4.1</div>
+          <div class="stat-label">Safety Score</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">6</div>
+          <div class="stat-label">This Week</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">High</div>
+          <div class="stat-label">Risk Level</div>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="main-content">
+          <div class="warning-box">
+            <strong>⚠️ High Risk Area:</strong> Airport vicinity has been identified as having organized crime activities. Extra vigilance required for travelers and airport staff.
+          </div>
+          
+          <h2>Area Overview</h2>
+          <p>The Birsa Munda Airport area is a critical transportation hub for Ranchi, but it has unfortunately become associated with various criminal activities including smuggling, organized crime, and theft targeting travelers. The area requires heightened security awareness.</p>
+          
+          <h3>Crime Patterns</h3>
+          <ul>
+            <li><strong>Smuggling:</strong> Illegal transportation of goods through airport channels</li>
+            <li><strong>Organized Crime:</strong> Coordinated criminal activities involving multiple perpetrators</li>
+            <li><strong>Theft:</strong> Targeting travelers' luggage and valuables</li>
+            <li><strong>Time Pattern:</strong> Incidents occur throughout the day, especially during peak travel hours</li>
+            <li><strong>Hotspots:</strong> Airport parking areas, approach roads, and nearby hotels</li>
+          </ul>
+          
+          <h3>Recent Crime Timeline</h3>
+          <div class="crime-timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">January 16, 2025</div>
+              <div class="timeline-type">Smuggling</div>
+              <p>Contraband goods seized during airport security check</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">January 13, 2025</div>
+              <div class="timeline-type">Theft</div>
+              <p>Passenger luggage theft reported from airport parking</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">January 11, 2025</div>
+              <div class="timeline-type">Organized Crime</div>
+              <p>Coordinated theft operation busted by airport security</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">January 9, 2025</div>
+              <div class="timeline-type">Fraud</div>
+              <p>Fake taxi service scam targeting airport passengers</p>
+            </div>
+          </div>
+          
+          <h3>Security Measures</h3>
+          <p>The airport has implemented enhanced security protocols including increased CCTV surveillance, additional security personnel, and coordination with local police. However, the surrounding areas still pose risks due to the transient nature of the population.</p>
+          
+          <h3>Traveler Safety</h3>
+          <p>Travelers are advised to use only authorized transportation services, keep valuables secure, and remain vigilant in parking areas and approach roads. The airport authority regularly issues safety advisories to passengers.</p>
+        </div>
+        
+        <div class="sidebar">
+          <h3>Airport Safety Tips</h3>
+          <ul class="safety-checklist">
+            <li><span class="check-icon">✓</span> Use authorized taxi services</li>
+            <li><span class="check-icon">✓</span> Keep luggage secure</li>
+            <li><span class="check-icon">✓</span> Avoid displaying valuables</li>
+            <li><span class="check-icon">✓</span> Stay in well-lit areas</li>
+            <li><span class="check-icon">✓</span> Verify hotel bookings</li>
+            <li><span class="check-icon">✓</span> Report suspicious activities</li>
+          </ul>
+          
+          <h3>Emergency Contacts</h3>
+          <ul>
+            <li><strong>Airport Security:</strong> 0651-XXXXXXX</li>
+            <li><strong>Airport Police:</strong> 0651-XXXXXXX</li>
+            <li><strong>Tourist Helpline:</strong> 1363</li>
+          </ul>
+          
+          <h3>Authorized Services</h3>
+          <ul>
+            <li>Pre-paid taxi counters</li>
+            <li>Airport shuttle services</li>
+            <li>Registered hotels</li>
+            <li>Official tour operators</li>
+          </ul>
+          
+          <h3>Avoid These</h3>
+          <ul>
+            <li>Unauthorized taxi services</li>
+            <li>Unverified accommodation</li>
+            <li>Isolated parking areas</li>
+            <li>Suspicious money exchange</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Ranchi Crime Safety Portal. Stay Safe, Stay Informed.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morabadi Area - Ranchi Crime Hotspot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .area-header {
+      background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+      color: white;
+      padding: 3rem 0;
+      text-align: center;
+    }
+    
+    .area-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .area-header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    
+    .back-link {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 2px solid white;
+      border-radius: 25px;
+      margin-top: 1rem;
+      transition: all 0.3s ease;
+    }
+    
+    .back-link:hover {
+      background: white;
+      color: #dc3545;
+    }
+    
+    .area-content {
+      padding: 3rem 0;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    
+    .stat-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #dc3545;
+      margin-bottom: 0.5rem;
+    }
+    
+    .stat-label {
+      color: #6c757d;
+      font-weight: 500;
+    }
+    
+    .content-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 3rem;
+    }
+    
+    .main-content {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .sidebar {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .crime-timeline {
+      margin-top: 2rem;
+    }
+    
+    .timeline-item {
+      padding: 1rem;
+      border-left: 4px solid #dc3545;
+      margin-bottom: 1rem;
+      background: #f8f9fa;
+      border-radius: 0 8px 8px 0;
+    }
+    
+    .timeline-date {
+      font-weight: 600;
+      color: #dc3545;
+    }
+    
+    .timeline-type {
+      background: #dc3545;
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 15px;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin: 0.5rem 0;
+    }
+    
+    .safety-checklist {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .safety-checklist li {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #e9ecef;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .safety-checklist li:last-child {
+      border-bottom: none;
+    }
+    
+    .check-icon {
+      color: #28a745;
+      font-weight: bold;
+    }
+    
+    .warning-box {
+      background: #f8d7da;
+      border: 1px solid #f5c6cb;
+      color: #721c24;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+    
+    @media (max-width: 768px) {
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="area-header">
+    <div class="container">
+      <h1>⚠️ Morabadi Area</h1>
+      <p>High Crime Area - Exercise Extra Caution</p>
+      <a href="index.html" class="back-link">← Back to Main Map</a>
+    </div>
+  </header>
+
+  <main class="area-content">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">41</div>
+          <div class="stat-label">Recent Reports</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">3.2</div>
+          <div class="stat-label">Safety Score</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">8</div>
+          <div class="stat-label">This Week</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">High</div>
+          <div class="stat-label">Risk Level</div>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="main-content">
+          <div class="warning-box">
+            <strong>⚠️ High Risk Area:</strong> Morabadi has been identified as a high-crime area. Extra caution is advised, especially for women and during night hours.
+          </div>
+          
+          <h2>Area Overview</h2>
+          <p>Morabadi is a densely populated area in Ranchi with a mix of residential and commercial establishments. The area has consistently reported higher crime rates, particularly incidents of harassment, assault, and theft. Poor lighting and crowded conditions contribute to the security challenges.</p>
+          
+          <h3>Crime Patterns</h3>
+          <ul>
+            <li><strong>Harassment:</strong> High incidents of street harassment and eve-teasing</li>
+            <li><strong>Assault:</strong> Physical assault cases reported frequently</li>
+            <li><strong>Theft:</strong> Pickpocketing and snatching incidents common</li>
+            <li><strong>Time Pattern:</strong> Peak incidents during evening hours (6 PM - 10 PM)</li>
+            <li><strong>Hotspots:</strong> Market areas, bus stops, and narrow lanes</li>
+          </ul>
+          
+          <h3>Recent Crime Timeline</h3>
+          <div class="crime-timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">January 16, 2025</div>
+              <div class="timeline-type">Harassment</div>
+              <p>Street harassment incident reported near market area</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">January 14, 2025</div>
+              <div class="timeline-type">Assault</div>
+              <p>Physical assault case reported in residential area</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">January 12, 2025</div>
+              <div class="timeline-type">Theft</div>
+              <p>Purse snatching incident at bus stop</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">January 10, 2025</div>
+              <div class="timeline-type">Harassment</div>
+              <p>Eve-teasing incident reported by college student</p>
+            </div>
+          </div>
+          
+          <h3>Safety Challenges</h3>
+          <p>The area faces multiple safety challenges including inadequate street lighting, overcrowded public spaces, limited police presence during peak hours, and narrow lanes that provide easy escape routes for criminals. The high population density also makes it difficult to monitor all areas effectively.</p>
+          
+          <h3>Police Response</h3>
+          <p>Local police have increased patrolling in the area and established additional checkpoints. However, the vast area and limited resources continue to pose challenges. Community policing initiatives are being implemented to improve safety.</p>
+        </div>
+        
+        <div class="sidebar">
+          <h3>Critical Safety Tips</h3>
+          <ul class="safety-checklist">
+            <li><span class="check-icon">✓</span> Avoid traveling alone</li>
+            <li><span class="check-icon">✓</span> Stay in well-lit areas</li>
+            <li><span class="check-icon">✓</span> Keep valuables hidden</li>
+            <li><span class="check-icon">✓</span> Use main roads only</li>
+            <li><span class="check-icon">✓</span> Carry emergency whistle</li>
+            <li><span class="check-icon">✓</span> Share location with family</li>
+          </ul>
+          
+          <h3>Emergency Contacts</h3>
+          <ul>
+            <li><strong>Morabadi Police:</strong> 0651-XXXXXXX</li>
+            <li><strong>Women Helpline:</strong> 1091</li>
+            <li><strong>Emergency Response:</strong> 100</li>
+          </ul>
+          
+          <h3>Avoid These Areas</h3>
+          <ul>
+            <li>Narrow lanes after dark</li>
+            <li>Isolated market areas</li>
+            <li>Poorly lit bus stops</li>
+            <li>Crowded festival areas</li>
+          </ul>
+          
+          <h3>Safe Travel Times</h3>
+          <ul>
+            <li>Daytime hours (8 AM - 6 PM)</li>
+            <li>Main road routes only</li>
+            <li>Group travel recommended</li>
+            <li>Avoid late evening travel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Ranchi Crime Safety Portal. Stay Safe, Stay Informed.</p>
+    </div>
+  </footer>
+</body>
+</html>

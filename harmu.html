@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmu Area - Ranchi Crime Hotspot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .area-header {
+      background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%);
+      color: white;
+      padding: 3rem 0;
+      text-align: center;
+    }
+    
+    .area-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .area-header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    
+    .back-link {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 2px solid white;
+      border-radius: 25px;
+      margin-top: 1rem;
+      transition: all 0.3s ease;
+    }
+    
+    .back-link:hover {
+      background: white;
+      color: #ffc107;
+    }
+    
+    .area-content {
+      padding: 3rem 0;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    
+    .stat-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #ffc107;
+      margin-bottom: 0.5rem;
+    }
+    
+    .stat-label {
+      color: #6c757d;
+      font-weight: 500;
+    }
+    
+    .content-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 3rem;
+    }
+    
+    .main-content {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .sidebar {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .crime-timeline {
+      margin-top: 2rem;
+    }
+    
+    .timeline-item {
+      padding: 1rem;
+      border-left: 4px solid #ffc107;
+      margin-bottom: 1rem;
+      background: #f8f9fa;
+      border-radius: 0 8px 8px 0;
+    }
+    
+    .timeline-date {
+      font-weight: 600;
+      color: #ffc107;
+    }
+    
+    .timeline-type {
+      background: #ffc107;
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 15px;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin: 0.5rem 0;
+    }
+    
+    .safety-checklist {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .safety-checklist li {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #e9ecef;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .safety-checklist li:last-child {
+      border-bottom: none;
+    }
+    
+    .check-icon {
+      color: #28a745;
+      font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="area-header">
+    <div class="container">
+      <h1>🏪 Harmu Area</h1>
+      <p>Mixed Commercial and Residential Zone</p>
+      <a href="../index.html" class="back-link">← Back to Main Map</a>
+    </div>
+  </header>
+
+  <main class="area-content">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">2</div>
+          <div class="stat-label">Recent Reports</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">Medium</div>
+          <div class="stat-label">Risk Level</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1</div>
+          <div class="stat-label">This Week</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">Good</div>
+          <div class="stat-label">Police Presence</div>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="main-content">
+          <h2>Area Overview</h2>
+          <p>Harmu is a bustling commercial and residential area in Ranchi, characterized by its mixed-use development with shops, offices, and residential complexes. The area experiences moderate crime rates with good police presence and community awareness.</p>
+          
+          <h3>Crime Patterns</h3>
+          <ul>
+            <li><strong>Property Crime:</strong> Occasional shoplifting and petty thefts</li>
+            <li><strong>Traffic Issues:</strong> Minor traffic violations and disputes</li>
+            <li><strong>Time Pattern:</strong> Incidents occur throughout the day</li>
+            <li><strong>Hotspots:</strong> Market areas and busy intersections</li>
+          </ul>
+          
+          <h3>Recent Crime Timeline</h3>
+          <div class="crime-timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">January 13, 2025</div>
+              <div class="timeline-type">Theft</div>
+              <p>Shoplifting incident reported at local store</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">January 9, 2025</div>
+              <div class="timeline-type">Dispute</div>
+              <p>Traffic dispute resolved by police intervention</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">January 6, 2025</div>
+              <div class="timeline-type">Vandalism</div>
+              <p>Minor property damage reported</p>
+            </div>
+          </div>
+          
+          <h3>Commercial Safety</h3>
+          <p>The commercial establishments in Harmu have implemented various security measures including CCTV surveillance, security guards, and alarm systems. Local business owners maintain regular communication with police authorities and participate in community safety programs.</p>
+          
+          <h3>Residential Security</h3>
+          <p>Residential complexes in the area have gated communities with security personnel, visitor management systems, and regular patrols. Residents actively participate in neighborhood watch programs and maintain good relations with local police.</p>
+        </div>
+        
+        <div class="sidebar">
+          <h3>Safety Guidelines</h3>
+          <ul class="safety-checklist">
+            <li><span class="check-icon">✓</span> Be aware of surroundings</li>
+            <li><span class="check-icon">✓</span> Secure valuables</li>
+            <li><span class="check-icon">✓</span> Use well-lit areas</li>
+            <li><span class="check-icon">✓</span> Report suspicious activities</li>
+            <li><span class="check-icon">✓</span> Follow traffic rules</li>
+            <li><span class="check-icon">✓</span> Keep emergency contacts</li>
+          </ul>
+          
+          <h3>Emergency Contacts</h3>
+          <ul>
+            <li><strong>Harmu Police:</strong> 0651-XXXXXXX</li>
+            <li><strong>Traffic Police:</strong> 0651-XXXXXXX</li>
+            <li><strong>Business Association:</strong> 0651-XXXXXXX</li>
+          </ul>
+          
+          <h3>Safe Areas</h3>
+          <ul>
+            <li>Main market streets</li>
+            <li>Residential complexes</li>
+            <li>Police station vicinity</li>
+            <li>Well-lit commercial areas</li>
+          </ul>
+          
+          <h3>Exercise Caution</h3>
+          <ul>
+            <li>Isolated parking areas</li>
+            <li>Late night travel</li>
+            <li>Unfamiliar shortcuts</li>
+            <li>Overcrowded areas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Ranchi Crime Hotspot. Stay Safe, Stay Informed.</p>
+    </div>
+  </footer>
+</body>
+</html> 
